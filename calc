@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Calc 5</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="display">
+            <div class="box number">
+                <div class="top_left"             id="600"></div>
+                <div class="top"                  id="601"></div>
+                <div class="top_right"            id="602"></div>
+                <div class="right_top_top"        id="610"></div>
+                <div class="right_top "           id="611"></div>
+                <div class="right_top_bottom"     id="612"></div>
+                <div class="right_bottom_top"     id="620"></div>
+                <div class="right_bottom"         id="621"></div>
+                <div class="right_bottom_bottom"  id="622"></div>
+                <div class="bottom_right"         id="630"></div>
+                <div class="bottom"               id="631"></div>
+                <div class="bottom_left"          id="632"></div>
+                <div class="left_bottom_bottom"   id="640"></div>
+                <div class="left_bottom"          id="641"></div>
+                <div class="left_bottom_top"      id="642"></div>
+                <div class="left_top_bottom"      id="650"></div>
+                <div class="left_top"             id="651"></div>
+                <div class="left_top_top"         id="652"></div>
+                <div class="middle_left"          id="660"></div>
+                <div class="middle"               id="661"></div>
+                <div class="middle_right"         id="662"></div>
+            </div><!-- 
+         --><div class="box dotted">
+                <div class="circle" id="12"></div>
+            </div><!--
+         --><div class="box number">
+                <div class="top_left"             id="500"></div>
+                <div class="top"                  id="501"></div>
+                <div class="top_right"            id="502"></div>
+                <div class="right_top_top"        id="510"></div>
+                <div class="right_top "           id="511"></div>
+                <div class="right_top_bottom"     id="512"></div>
+                <div class="right_bottom_top"     id="520"></div>
+                <div class="right_bottom"         id="521"></div>
+                <div class="right_bottom_bottom"  id="522"></div>
+                <div class="bottom_right"         id="530"></div>
+                <div class="bottom"               id="531"></div>
+                <div class="bottom_left"          id="532"></div>
+                <div class="left_bottom_bottom"   id="540"></div>
+                <div class="left_bottom"          id="541"></div>
+                <div class="left_bottom_top"      id="542"></div>
+                <div class="left_top_bottom"      id="550"></div>
+                <div class="left_top"             id="551"></div>
+                <div class="left_top_top"         id="552"></div>
+                <div class="middle_left"          id="560"></div>
+                <div class="middle"               id="561"></div>
+                <div class="middle_right"         id="562"></div>
+         </div><!--
+         --><div class="box dotted">
+                <div class="circle" id="11"></div>
+         </div><!--
+         --><div class="box number">
+                <div class="top_left"             id="400"></div>
+                <div class="top"                  id="401"></div>
+                <div class="top_right"            id="402"></div>
+                <div class="right_top_top"        id="410"></div>
+                <div class="right_top "           id="411"></div>
+                <div class="right_top_bottom"     id="412"></div>
+                <div class="right_bottom_top"     id="420"></div>
+                <div class="right_bottom"         id="421"></div>
+                <div class="right_bottom_bottom"  id="422"></div>
+                <div class="bottom_right"         id="430"></div>
+                <div class="bottom"               id="431"></div>
+                <div class="bottom_left"          id="432"></div>
+                <div class="left_bottom_bottom"   id="440"></div>
+                <div class="left_bottom"          id="441"></div>
+                <div class="left_bottom_top"      id="442"></div>
+                <div class="left_top_bottom"      id="450"></div>
+                <div class="left_top"             id="451"></div>
+                <div class="left_top_top"         id="452"></div>
+                <div class="middle_left"          id="460"></div>
+                <div class="middle"               id="461"></div>
+                <div class="middle_right"         id="462"></div>
+         </div><!--
+         --><div class="box dotted">
+            <div class="circle" id="10"></div>
+         </div><!--
+         --><div class="box number">
+                <div class="top_left"             id="300"></div>
+                <div class="top"                  id="301"></div>
+                <div class="top_right"            id="302"></div>
+                <div class="right_top_top"        id="310"></div>
+                <div class="right_top "           id="311"></div>
+                <div class="right_top_bottom"     id="312"></div>
+                <div class="right_bottom_top"     id="320"></div>
+                <div class="right_bottom"         id="321"></div>
+                <div class="right_bottom_bottom"  id="322"></div>
+                <div class="bottom_right"         id="330"></div>
+                <div class="bottom"               id="331"></div>
+                <div class="bottom_left"          id="332"></div>
+                <div class="left_bottom_bottom"   id="340"></div>
+                <div class="left_bottom"          id="341"></div>
+                <div class="left_bottom_top"      id="342"></div>
+                <div class="left_top_bottom"      id="350"></div>
+                <div class="left_top"             id="351"></div>
+                <div class="left_top_top"         id="352"></div>
+                <div class="middle_left"          id="360"></div>
+                <div class="middle"               id="361"></div>
+                <div class="middle_right"         id="362"></div>
+         </div><!--
+         --><div class="box dotted">
+            <div class="circle" id="9"></div>
+         </div><!--
+         --><div class="box number">
+                <div class="top_left"             id="200"></div>
+                <div class="top"                  id="201"></div>
+                <div class="top_right"            id="202"></div>
+                <div class="right_top_top"        id="210"></div>
+                <div class="right_top "           id="211"></div>
+                <div class="right_top_bottom"     id="212"></div>
+                <div class="right_bottom_top"     id="220"></div>
+                <div class="right_bottom"         id="221"></div>
+                <div class="right_bottom_bottom"  id="222"></div>
+                <div class="bottom_right"         id="230"></div>
+                <div class="bottom"               id="231"></div>
+                <div class="bottom_left"          id="232"></div>
+                <div class="left_bottom_bottom"   id="240"></div>
+                <div class="left_bottom"          id="241"></div>
+                <div class="left_bottom_top"      id="242"></div>
+                <div class="left_top_bottom"      id="250"></div>
+                <div class="left_top"             id="251"></div>
+                <div class="left_top_top"         id="252"></div>
+                <div class="middle_left"          id="260"></div>
+                <div class="middle"               id="261"></div>
+                <div class="middle_right"         id="262"></div>
+            </div><!--
+         --><div class="box dotted">
+            <div class="circle" id="8"></div>
+         </div><!--
+         --><div class="box number">
+                <div class="top_left"             id="100"></div>
+                <div class="top"                  id="101"></div>
+                <div class="top_right"            id="102"></div>
+                <div class="right_top_top"        id="110"></div>
+                <div class="right_top "           id="111"></div>
+                <div class="right_top_bottom"     id="112"></div>
+                <div class="right_bottom_top"     id="120"></div>
+                <div class="right_bottom"         id="121"></div>
+                <div class="right_bottom_bottom"  id="122"></div>
+                <div class="bottom_right"         id="130"></div>
+                <div class="bottom"               id="131"></div>
+                <div class="bottom_left"          id="132"></div>
+                <div class="left_bottom_bottom"   id="140"></div>
+                <div class="left_bottom"          id="141"></div>
+                <div class="left_bottom_top"      id="142"></div>
+                <div class="left_top_bottom"      id="150"></div>
+                <div class="left_top"             id="151"></div>
+                <div class="left_top_top"         id="152"></div>
+                <div class="middle_left"          id="160"></div>
+                <div class="middle"               id="161"></div>
+                <div class="middle_right"         id="162"></div>
+            </div><!--
+         --><div class="box dotted">
+            <div class="circle" id="7"></div>
+         </div><!--
+         --><div class="box number">
+                <div class="top_left"             id="000"></div>
+                <div class="top"                  id="001"></div>
+                <div class="top_right"            id="002"></div>
+                <div class="right_top_top"        id="010"></div>
+                <div class="right_top "           id="011"></div>
+                <div class="right_top_bottom"     id="012"></div>
+                <div class="right_bottom_top"     id="020"></div>
+                <div class="right_bottom"         id="021"></div>
+                <div class="right_bottom_bottom"  id="022"></div>
+                <div class="bottom_right"         id="030"></div>
+                <div class="bottom"               id="031"></div>
+                <div class="bottom_left"          id="032"></div>
+                <div class="left_bottom_bottom"   id="040"></div>
+                <div class="left_bottom"          id="041"></div>
+                <div class="left_bottom_top"      id="042"></div>
+                <div class="left_top_bottom"      id="050"></div>
+                <div class="left_top"             id="051"></div>
+                <div class="left_top_top"         id="052"></div>
+                <div class="middle_left"          id="060"></div>
+                <div class="middle"               id="061"></div>
+                <div class="middle_right"         id="062"></div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="buttons">
+            <div class="clear_buttons">
+                <div class="backspace" onclick="back()">
+                    &gt;
+                </div>
+                <div class="clear" onclick="cls()">
+                    C
+                </div>
+            </div>
+            <!-- Цифры и математические операции -->
+            <div class="math_buttons">
+                <div class="row">
+                    <div class="button" onclick="writer('7')">7</div>
+                    <div class="button" onclick="writer('8')">8</div>
+                    <div class="button" onclick="writer('9')">9</div>
+                    <div class="button" onclick="multy()">&times;</div>
+                </div>
+                <div class="row">
+                    <div class="button" onclick="writer('4')">4</div>
+                    <div class="button" onclick="writer('5')">5</div>
+                    <div class="button" onclick="writer('6')">6</div>
+                    <div class="button" onclick="divide()">&divide;</div>
+                </div>
+                <div class="row">
+                    <div class="button" onclick="writer('1')">1</div>
+                    <div class="button" onclick="writer('2')">2</div>
+                    <div class="button" onclick="writer('3')">3</div>
+                    <div class="button" onclick="plus()">&plus;</div>
+                </div>
+                <div class="row">
+                    <div class="button" onclick="writer('0')">0</div>
+                    <div class="button" onclick="equel()">=</div>
+                    <div class="button" onclick="writer('.')">.</div>
+                    <div class="button" onclick="minus()">&minus;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
